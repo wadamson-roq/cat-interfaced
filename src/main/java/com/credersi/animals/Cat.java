@@ -1,6 +1,6 @@
 package com.credersi.animals;
 
-public class Cat extends Animal implements Purr {
+public class Cat extends Animal implements Purr, Puzzles {
 	private int lives;
 	
 	@Override
@@ -20,4 +20,9 @@ public class Cat extends Animal implements Purr {
 	public int purr() {
 		return 25;
 	}
+	
+	public int puzzles() {
+		return 2;
+	}
+	
 }
