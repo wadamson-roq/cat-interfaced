@@ -39,5 +39,4 @@ public class CatTest {
 		assertTrue(ape.puzzles() > rat.puzzles());
 		assertFalse(rat.puzzles() < cat.puzzles());
 	}
-	
 }
